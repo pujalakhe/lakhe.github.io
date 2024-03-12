@@ -3,33 +3,49 @@
     height:100dvh;
     font-size: 1.5em;
     margin-top:92px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #354346;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width:80vw;
+    height:90%;
 }
 .skill-section  h3{
     margin-top:5px;
+    color:#C8BDC7;
+    letter-spacing: 3px;
 }
-.skill-section span{
+.top{
+    height:10%;
+}
+.skill-section span {
     border-bottom: 4px dashed #b3720b;
 }
 .skill-list p{
     text-align: left;
     margin-left: 15px;
     margin-top: 20px;
+    color:#fff;
 }
 .container {
     width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
+    background-color: #E5D1B1; /* Grey background */
 }
 .skills {
     text-align: right; /* Right-align text */
     padding-top: 10px; /* Add top padding */
     padding-bottom: 10px; /* Add bottom padding */
-    color: white; /* White text color */
+    color: #fff; /* White text color */
 }
   
-.html {width: 90%; background-color: #354346;}
-.css {width: 80%; background-color: #354346;} 
-.js {width: 85%; background-color: #354346;} 
-.mysql {width: 60%; background-color: #354346;} 
-.git{width:85%;background-color: #354346;}
-.C{width:60%;background-color: #354346;}
+.html {width: 90%; background-color: #b3720b;}
+.css {width: 80%; background-color: #b3720b;} 
+.js {width: 85%; background-color: #b3720b;} 
+.mysql {width: 60%; background-color: #b3720b;} 
+.git{width:85%;background-color: #b3720b;}
+.C{width:60%;background-color: #b3720b;}

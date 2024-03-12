@@ -1,33 +1,40 @@
 .about{
-    border:1px solid red;
     width: 100%;
     height:100dvh;
     font-size: 1.5em;
     margin-top:92px;
     display: flex;
+    background-color: #C8BDC7;
+    
 }
 .about-content{
-    border: 1px double #F2AD8C;
+    border: 3px solid #E5D1B1;
     width:100%;
     justify-content: flex-end;
     float:right;
+    text-align: center;
     padding: 20px;
 }
 .about h3{
+    text-align: center;
     margin-top: 20px;
 }
 .about-content span{
-    border-bottom:5px solid #F2AD8C
+    border-bottom:5px solid black
 }
 .about-content p{
     padding: 8px;
+}
+table.center{
+    margin-left: auto;
+    margin-right: auto;
 }
 table{
     border-collapse: collapse;
     margin-top:20px;
 }
 th{
-    background-color: #7F8059;
+    background-color: #E5D1B1;
 }
 th,td{
   
@@ -36,7 +43,7 @@ th,td{
 } 
 .center-profile-picture
 {
-    margin-top: 20px;
+    margin-top: 110px;
     margin-right: 20px;
     margin-left: 20px;;
 
